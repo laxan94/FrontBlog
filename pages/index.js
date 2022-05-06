@@ -25,6 +25,15 @@ const Posts = () => {
                 <h4 className="bouton">View Comment</h4>
               </a>
             </Link>
+            <Link
+              href={{
+                pathname: `/addComments/${id}`,
+              }}
+            >
+              <a>
+                <h5 className="bouton">Add Comment</h5>
+              </a>
+            </Link>
           </div>
         ))}
       </div>
